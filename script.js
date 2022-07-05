@@ -31,3 +31,5 @@ $('body').on('click', function() {
   alert("click");
   changeColor();
 });
+
+console.log("loaded.");
