@@ -10,7 +10,7 @@ function delay(milliseconds){
     });
 }
 
-async function changeColor()
+function changeColor()
 {
   let randColorIndex = getRandomInt(colors.length-1);
   let color = colors[randColorIndex];
@@ -18,7 +18,7 @@ async function changeColor()
 
   $('h1').text("...");
   $('body').css('background-color', "black");
-  await delay(500);
+  //await delay(500);
 
   $('h1').css('color', textcolor);
   $('h1').text("Change color");
