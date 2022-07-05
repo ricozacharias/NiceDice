@@ -17,6 +17,7 @@ async function changeColor()
   let textcolor = color !== "yellow" ? "white" : "black";
 
   // reset color and show loading
+  $('h1').css('color', "white");
   $('h1').text("...");
   $('body').css('background-color', "black");
   await delay(500);
