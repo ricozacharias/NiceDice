@@ -1,4 +1,4 @@
-const colors = ["red", "green", "blue", "yellow", "orange"];
+const colors = ["red", "green", "blue", "yellow", "orange", "purple"];
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
