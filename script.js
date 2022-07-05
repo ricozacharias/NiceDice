@@ -28,5 +28,6 @@ async function changeColor()
 
 // Main
 $('body').on('click', function() {
+  alert("click");
   changeColor();
 });
