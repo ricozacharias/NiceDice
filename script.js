@@ -10,16 +10,18 @@ function delay(milliseconds){
     });
 }
 
-function changeColor()
+await function changeColor()
 {
   let randColorIndex = getRandomInt(colors.length-1);
   let color = colors[randColorIndex];
   let textcolor = color !== "yellow" ? "white" : "black";
 
+  // reset color and show loading
   $('h1').text("...");
   $('body').css('background-color', "black");
-  //await delay(500);
+  await delay(500);
 
+  // set new colors
   $('h1').css('color', textcolor);
   $('h1').text("Change color");
   $('body').css('background-color', color);
