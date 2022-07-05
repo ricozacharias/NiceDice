@@ -27,9 +27,9 @@ function changeColor()
 }
 
 // Main
-$('body').on('click', function() {
-  alert("click");
-  changeColor();
+$(document).ready(function(){
+  $('body').on('click', function() {
+    changeColor();
+  });
 });
 
-console.log("loaded.");
