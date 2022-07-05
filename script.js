@@ -1,5 +1,3 @@
-import $ from 'jquery'
-    
 const colors = ["red", "green", "blue", "yellow", "orange"];
 
 function getRandomInt(max) {
