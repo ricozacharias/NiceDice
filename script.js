@@ -10,7 +10,7 @@ function delay(milliseconds){
     });
 }
 
-await function changeColor()
+async function changeColor()
 {
   let randColorIndex = getRandomInt(colors.length-1);
   let color = colors[randColorIndex];
