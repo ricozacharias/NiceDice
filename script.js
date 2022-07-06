@@ -12,7 +12,7 @@ function delay(milliseconds){
 
 async function changeColor()
 {
-  let randColorIndex = getRandomInt(colors.length-1);
+  let randColorIndex = getRandomInt(colors.length);
   let color = colors[randColorIndex];
   let textcolor = color !== "yellow" ? "white" : "black";
 
